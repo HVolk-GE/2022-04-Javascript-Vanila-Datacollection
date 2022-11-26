@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+:root {
+    --darkbtnbackcolor: black;
+    --darkbtncolor: white;
+}
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.darkMode {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/*Header definition*/
+
+header {
+    margin-top: 20px;
+    margin-left: 35%;
+    font-size: 28px;
+}
+
+
+/*Headline definition*/
+
+.headline {
+    font-size: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+/*Kurzbeschreibung definition*/
+
+.shortDescription {
+    font-size: 28px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+/*Hinweis auf Links*/
+
+.hinweis {
+    color: rgb(247, 9, 9, .8);
+    font-weight: 5;
+    font-size: 20px;
+}
+
+
+/*Buttonleiste oberhalb der Container*/
+
+.buttonleiste {
+    position: relative;
+    margin-top: 150px;
+    padding: 3%;
+    margin: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+/*Button outside the container tag, definition*/
+
+.button {
+    position: relative;
+    background-color: var(--darkbtnbackcolor);
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--darkbtncolor);
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .3);
+    padding: 1%;
+}
+
+.button:hover {
+    background-color: rgba(11, 11, 11, .1);
+    color: rgb(0, 0, 0);
+}
+
+.button:active {
+    background-color: rgba(11, 11, 11, .1);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+/*Lösche alle offline Einträge/Domains*/
+
+.delAllBtn {
+    margin-left: 20%;
+}
+
+
+/*Löschen des kompletten localstorage*/
+
+.delLocStoreageBtn {
+    margin-left: 40%;
+}
+
+.newLoad {
+    margin-left: 40%;
+}
+
+
+/*Neuen Eintrag hinzufügen*/
+
+.newEntry {
+    margin-left: 40%;
+}
+
+
+/*Definition des Grids innerhalb des Containers*/
+
+.container {
+    text-decoration: none;
+    position: relative;
+    padding: 3%;
+    margin: 1%;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    background: rgb(142, 142, 142);
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .3);
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr;-*
+    /*grid-template-columns: repeat(auto-fill,
+    minmax(200px, 1fr));*/
+}
+
+
+/*Definition des div tags für Hinweisanzeige, wenn keine Daten gefunden wurde*/
+
+.hinweisKeineDaten {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/*Es folgen die Definitionen für die einzelnen Spalten in dem Container Grid*/
+
+
+/*Spalte 1.: Definition der div tags für Internet Adresse Anzeige*/
+
+.domainname {
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.domainname:hover {
+    background-color: #adc;
+}
+
+
+/*Spalte 2a.: Definition der div tags für die IP Adressenanzeige*/
+
+.ipv4 {
+    font-size: 25px;
+    background: rgb(172, 171, 171);
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .3);
+}
+
+
+/*Spalte 2b.: Definition der div tags für offline/online Anzeige*/
+
+.pingresulttrue,
+.pingresultfalse {
+    font-size: 25px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .3);
+}
+
+.pingresultfalse {
+    background: rgba(255, 0, 0, .5);
+}
+
+.pingresulttrue {
+    background: rgba(0, 255, 0, .5);
+}
+
+.pingresulttrue:hover {
+    background-color: #adc;
+}
+
+
+/*Spalte 3.: Löscht aktuellen Eintrag, button befindet sich in jedem Container*/
+
+.delBtn {
+    background-color: #888;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .3);
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    margin-left: 35%;
+}
+
+
+/*Definition Modal-Window*/
+
+.modalOverlay {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+}
+
+.modalContent {
+    font-size: 24px;
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 1%;
+    border: 1px solid #888;
+    width: 25%;
+    border-radius: 2px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .3);
+    position: absolute;
+    right: 25%;
+    left: 25%;
+    visibility: hidden;
+}
+
+.btnOpen {
+    text-decoration-color: black;
+    text-decoration-line: none;
+}
+
+.modalOverlay.active,
+.modalContent.active {
+    visibility: visible;
+}
+
+.newEntries {
+    margin-top: -25px;
+    margin-bottom: -25px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .3);
+}
+
+.inputsection {
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.inputfields {
+    display: block;
+    font-size: 22px;
+    padding-top: 0px;
+    margin-left: 250px;
+    margin-top: -25px;
+    width: 250px;
+}
+
+.saveNewEntry {
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.saveAbbrechenNewEntry {
+    margin-bottom: -10px;
+    margin-left: 200px;
+}
+
+.darkButton {
+    background-color: var(--darkbtnbackcolor);
+    color: var(--darkbtncolor);
+    width: 50px;
+    border-radius: 90%;
+    margin-left: 80%;
+    margin-top: 40px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .5);
+}
+
+.darkButton:hover {
+    background-color: rgba(81, 81, 81, .5);
+    cursor: pointer;
+}

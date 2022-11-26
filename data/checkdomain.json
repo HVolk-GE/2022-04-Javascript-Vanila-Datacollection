@@ -1,0 +1,174 @@
+{
+  "websites": [
+    {
+      "domainname": "1stbanknigeria-online.com",
+      "testresults": [
+        {
+          "ipv4": "196.11.150.101",
+          "pingresult": true
+        }
+      ],
+      "domaindetails": [
+        {
+          "domainname": "1stbanknigeria-online.com",
+          "domainadmin": "john do",
+          "domainadminemail": "johndo@abaca.com",
+          "domainlocation": "MU/Port Louis/Mauritius"
+        }
+      ]
+    },
+    {
+      "domainname": "abacorealestates.com",
+      "testresults": [
+        {
+          "ipv4": "no answer with @error : 4",
+          "pingresult": false
+        }
+      ],
+      "domaindetails": [
+        {
+          "domainname": "abacorealestates.com",
+          "domainadmin": "N/A",
+          "domainadminemail": "N/A",
+          "domainlocation": "N/A"
+        }
+      ]
+    },
+    {
+      "domainname": "africadevelopmentbank.2fh.co",
+      "testresults": [
+        {
+          "ipv4": "67.227.226.240",
+          "pingresult": true
+        }
+      ],
+      "domaindetails": [
+        {
+          "domainname": "africadevelopmentbank.2fh.co",
+          "domainadmin": "Jackson 5",
+          "domainadminemail": "Jackson5@gmail.com",
+          "domainlocation": "US/Michigan/Lansing"
+        }
+      ]
+    },
+    {
+      "domainname": "carlislegroup.eu",
+      "testresults": [
+        {
+          "ipv4": "no answer with @error : 4",
+          "pingresult": false
+        }
+      ],
+      "domaindetails": [
+        {
+          "domainname": "carlislegroup.eu",
+          "domainadmin": "N/A",
+          "domainadminemail": "N/A",
+          "domainlocation": "US"
+        }
+      ]
+    },
+    {
+      "domainname": "cashvipe.com",
+      "testresults": [
+        {
+          "ipv4": "N/A",
+          "pingresult": false
+        }
+      ],
+      "domaindetails": [
+        {
+          "domainname": "cashvipe.com",
+          "domainadmin": "N/A",
+          "domainadminemail": "N/A",
+          "domainlocation": "N/A"
+        }
+      ]
+    },
+    {
+      "domainname": "ccdelonline.com",
+      "testresults": [
+        {
+          "ipv4": "67.222.29.115",
+          "pingresult": true
+        }
+      ],
+      "domaindetails": [
+        {
+          "domainname": "ccdelonline.com",
+          "domainadmin": "May Key",
+          "domainadminemail": "key4ever@ccdelonline.com",
+          "domainlocation": "HK/Hong Kong/Hong Kong"
+        }
+      ]
+    },
+    {
+      "domainname": "eagle-ln.com",
+      "testresults": [
+        {
+          "ipv4": "N/A",
+          "pingresult": false
+        }
+      ],
+      "domaindetails": [
+        {
+          "domainname": "eagle-ln.com",
+          "domainadmin": "N/A",
+          "domainadminemail": "N/A",
+          "domainlocation": "N/A"
+        }
+      ]
+    },
+    {
+      "domainname": "gatt-privat-kredit.net",
+      "testresults": [
+        {
+          "ipv4": "N/A",
+          "pingresult": false
+        }
+      ],
+      "domaindetails": [
+        {
+          "domainname": "gatt-privat-kredit.net",
+          "domainadmin": "N/A",
+          "domainadminemail": "N/A",
+          "domainlocation": "N/A"
+        }
+      ]
+    },
+    {
+      "domainname": "gloshippers.com",
+      "testresults": [
+        {
+          "ipv4": "N/A",
+          "pingresult": false
+        }
+      ],
+      "domaindetails": [
+        {
+          "domainname": "gloshippers.com",
+          "domainadmin": "N/A",
+          "domainadminemail": "N/A",
+          "domainlocation": "N/A"
+        }
+      ]
+    },
+    {
+      "domainname": "kleinwortbensonprivate.com",
+      "testresults": [
+        {
+          "ipv4": "N/A",
+          "pingresult": false
+        }
+      ],
+      "domaindetails": [
+        {
+          "domainname": "kleinwortbensonprivate.com",
+          "domainadmin": "N/A",
+          "domainadminemail": "N/A",
+          "domainlocation": "N/A"
+        }
+      ]
+    }
+  ]
+}
